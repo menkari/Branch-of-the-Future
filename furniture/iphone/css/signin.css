@@ -1,0 +1,8 @@
+div.noscript{padding-top:8px;}
+ul.login-panel{background-color:#e2dcd2;padding:0 15px;padding-bottom:15px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;}
+ul.login-panel li{list-style-type:none;display:none;}
+ul.login-panel li label{display:block;padding:10px 0;font-weight:bold;}
+div.forgotten-password a span:first-child{display:inline-block;font-size:13px;width:56%;text-align:left;line-height:13px;position:relative;vertical-align:middle;padding-bottom:6px;}
+div.forgotten-password a span:last-child{display:inline-block;width:35%;text-align:right;height:45px;line-height:45px;padding:0;}
+div.note{font-weight:bold;font-size:12px;margin:10px 10px;margin-bottom:0;}
+#trackingDiv{display:none;height:0;}

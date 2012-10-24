@@ -1,0 +1,78 @@
+body{background-color:#bbb1a6;padding:0;margin:0;font-family:"Arial";color:#331e1e;-webkit-text-size-adjust:none;}
+body.profile{min-height:480px;}
+body.landscape{min-height:320px;}
+h1{font-size:14pt;margin-top:15px;margin-bottom:6px;margin-left:5px;}
+h2{font-size:14px;font-weight:bold;margin-top:15px;margin-bottom:6px;margin-left:5px;}
+a{color:#331e1e;text-decoration:none;-webkit-text-size-adjust:none;}
+input.fancy{height:25px;padding:0;margin:0;display:block;width:100%;font-size:14px;}
+div.container div.header{background:url(../ui_imgs/header_small_bg.png) repeat-x;height:17px;}
+div.container div.header div.logo{background:url(../ui_imgs/westpac_logo_small.png) no-repeat 4px 3px;height:17px;text-align:right;}
+div.container div.header div.logo span.type{font-size:10px;font-weight:bold;color:white;line-height:17px;padding-right:5px;position:relative;top:-2px;}
+div.container div.navbar{background:url(../ui_imgs/navbar_bg.png) repeat-x;overflow:hidden;color:white;position:relative;height:45px;}
+div.container div.navbar div#navbar_left{height:24px;width:28%;line-height:24px;font-size:12px;font-weight:bold;left:8px;position:absolute;top:10px;z-index:1;}
+div.container div.navbar div#navbar_left a{color:white;background:url(../ui_imgs/nav_left_arrow.png) no-repeat;height:24px;width:90px;display:block;}
+div.container div.navbar div#navbar_left a span{text-overflow:ellipsis;white-space:nowrap;display:block;text-align:center;}
+div.container div.navbar div#navbar_title{min-height:1.1em;padding:.9em 35%;text-align:center;text-overflow:ellipsis;white-space:nowrap;font-weight:bold;font-size:15px;overflow:hidden;}
+div.container div.navbar #navbar_right{right:8px;position:absolute;top:10px;width:28%;height:24px;line-height:24px;font-size:12px;font-weight:bold;}
+div.container div.navbar div#navbar_right a{color:white;background:url(../ui_imgs/nav_button_red.png) no-repeat;width:71px;display:block;margin:0 0 0 auto;text-align:center;}
+div.container div.error{background:white;padding:10px 15px;margin:0;}
+div.container div.error h2{font-size:18px;font-weight:bold;padding:0;margin:0;color:#c4152d;margin-bottom:5px;}
+div.container div.error div.body{font-size:13px;border-bottom:1px dotted #bbb1a6;padding-bottom:10px;}
+div.error a:link,div.error a:visited{color:#46403b;text-decoration:underline;}
+div.error a:hover,div.error a:active{color:#bc1903;}
+div.container div.content{padding:10px 15px;}
+div.info-body{font-size:12px;}
+a.pdf{-moz-background-clip:border;-moz-background-inline-policy:continuous;-moz-background-origin:padding;background:transparent url(../ui_imgs/icon_pdf_link.png) no-repeat scroll left top;padding-left:16px;}
+div.error .body ul{margin:0;padding:0;}
+div.error .body ol{padding-left:16px;}
+div.error .body ol li{padding-left:0;margin-bottom:5px;}
+div.error .body ul li{-moz-background-clip:border;-moz-background-inline-policy:continuous;-moz-background-origin:padding;background:transparent url(../ui_imgs/red_bullet.gif) no-repeat scroll 0 .4em;padding-left:19px;list-style-type:none;margin-bottom:5px;}
+#footer{border-top:1px solid #331e1e;color:#5e6163;margin:10px 15px 0 15px;padding:9px 0;font-size:14px;}
+div.container div.footer{border-top:1px solid #331e1e;color:#5e6163;margin-top:10px;padding-top:9px;font-size:14px;}
+div.help-button{overflow:hidden;}
+div.help-button a{color:#5e6163;text-decoration:none;font-size:14px;font-weight:bold;background:url('../ui_imgs/help_button.png') no-repeat right;padding-right:18px;display:block;float:left;}
+div.footer div.westpac-logo{background:url(../ui_imgs/westpac_footer_logo.png) no-repeat;height:20px;display:block;background-position:right;line-height:20px;}
+div.footer .copyright,div.footer .abn,#footer .copyright,#footer .abn{display:block;font-size:9px;margin-top:5px;line-height:1.1em;-webkit-text-size-adjust:none;}
+div.button-small{display:block;position:relative;float:right;text-align:center;padding:5px 15px 6px 15px;margin-bottom:5px;background-color:#595D60;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;background-image:-webkit-gradient(linear,left bottom,left top,color-stop(0.5,#595d60),color-stop(0.5,#808080),color-stop(1,#777a7d));background-image:-moz-linear-gradient(center bottom,#595d60 50%,#808080 50%,#777a7d 100%);}
+div.button-small a,div.button-small a:link,div.button-small a:visited,div.button-small a:active{color:#FFF;text-decoration:none;font-size:12px;font-weight:bold;display:inline-block;vertical-align:middle;}
+div.button{height:45px;line-height:48px;display:block;margin:0 auto;text-align:center;color:white;font-weight:bold;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;-moz-box-shadow:0 2px 4px rgba(0,0,0,0.4);-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.4);box-shadow:0 2px 4px rgba(0,0,0,0.4);margin-top:10px;}
+div.button a{color:white;}
+div.red-button{background-image:-webkit-gradient(linear,left top,left bottom,from(#d81934),to(#c2152d));background-image:-webkit-linear-gradient(top,#d81934,#c2152d);background-image:-moz-linear-gradient(top,#d81934,#c2152d);background-image:-ms-linear-gradient(top,#d81934,#c2152d);background-image:-o-linear-gradient(top,#d81934,#c2152d);background-image:linear-gradient(top,#d81934,#c2152d);color:#FFF;}
+div.grey-button{background-image:-webkit-gradient(linear,left top,left bottom,from(#777a7d),to(#595d60));background-image:-webkit-linear-gradient(top,#777a7d,#595d60);background-image:-moz-linear-gradient(top,#777a7d,#595d60);background-image:-ms-linear-gradient(top,#777a7d,#595d60);background-image:-o-linear-gradient(top,#777a7d,#595d60);background-image:linear-gradient(top,#777a7d,#595d60);color:#FFF;}
+div.darkgrey-button{background-image:-webkit-gradient(linear,left top,left bottom,from(#575b5e),to(#353B3F));background-image:-webkit-linear-gradient(top,#575b5e,#353B3F);background-image:-moz-linear-gradient(top,#575b5e,#353B3F);background-image:-ms-linear-gradient(top,#575b5e,#353B3F);background-image:-o-linear-gradient(top,#575b5e,#353B3F);background-image:linear-gradient(top,#575b5e,#353B3F);color:#FFF;}
+div.light-button{background:url(../ui_imgs/light_button_bg.png) repeat-x;}
+div.light-button a{color:black;}
+div.arrow-button{text-align:left;padding:0 10px;font-size:13px;}
+ul.simple-button li a,div.arrow-button a,div.menu ul li a,.menulist-panel li a{background:url(../ui_imgs/arrow.png) no-repeat;}
+div.arrow-button a{text-decoration:none;display:block;background-position:right;margin-right:0;}
+div.button-left-right a span:first-child{display:inline-block;text-align:left;width:50%;}
+div.button-left-right a span:last-child{display:inline-block;text-align:right;width:40%;}
+div.menu ul{padding:0;margin:0;}
+div.menu ul li{padding:0;padding-left:15px;list-style-type:none;height:55px;background:url(../ui_imgs/content_button_bg.png);border-top:1px solid #8c857c;-moz-box-shadow:0 2px 2px rgba(0,0,0,0.4);-webkit-box-shadow:0 2px 2px rgba(0,0,0,0.4);box-shadow:0 2px 2px rgba(0,0,0,0.4);}
+div.menu ul li:first-child{-moz-border-top-left-radius:8px;-moz-border-top-right-radius:8px;-webkit-border-top-left-radius:8px;-webkit-border-top-right-radius:8px;border-top-left-radius:8px;border-top-right-radius:8px;border-top:none;}
+div.menu ul li:last-child{-moz-border-bottom-left-radius:8px;-moz-border-bottom-right-radius:8px;-webkit-border-bottom-left-radius:8px;-webkit-border-bottom-right-radius:8px;border-bottom-left-radius:8px;border-bottom-right-radius:8px;}
+div.menu ul li a{color:#331e1;text-decoration:none;display:block;background-position:right;margin-right:15px;}
+ul.detail-button li{display:block;}
+ul.detail-button li div h2{font-size:11pt;font-weight:bold;padding:0;margin:0;margin-left:35px;padding-top:13px;color:#331e1;}
+ul.detail-button li div p{font-size:8pt;padding:0;margin:0;display:block;margin-left:35px;color:#331e1;}
+ul.detail-button li div.icon{display:block;height:55px;}
+div.panel ul{-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;-moz-box-shadow:0 2px 4px rgba(0,0,0,0.4);-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.4);box-shadow:0 2px 4px rgba(0,0,0,0.4);margin:0;padding:0;}
+div.panel ul li{list-style-type:none;margin:0;padding:0;}
+div.panel ul.call-westpac{background:url(../ui_imgs/contact_bg.png) repeat-x;height:124px;display:block;}
+div.panel ul.call-westpac li{color:white;height:38px;line-height:38px;display:block;}
+div.panel ul.call-westpac li a{color:white;text-decoration:none;font-size:10pt;font-weight:bold;margin:0 20px;border-top:1px solid #7d8182;display:block;height:38px;line-height:38px;overflow:hidden;}
+div.panel ul.call-westpac li:first-child a{border-top:none;}
+div.panel ul.call-westpac li a span{display:inline-block;width:50%;height:38px;overflow:hidden;white-space:nowrap;}
+div.panel ul.call-westpac li a span:first-child{text-align:left;text-overflow:ellipsis;}
+div.panel ul.call-westpac li a span:last-child{text-align:right;}
+div.panel ul.help-panel{height:124px;}
+div.panel ul.help-panel li{height:40px;line-height:40px;display:block;}
+div.panel ul.help-panel li:first-child{border-top:none;}
+ul.simple-button li a{font-size:10pt;font-weight:bold;display:block;background-position:right;text-decoration:none;border-top:1px solid #c7c2b9;margin:0 20px;}
+.menulist-panel ul{display:block;}
+.menulist-panel ul li{height:40px;line-height:40px;display:block;overflow:hidden;}
+.menulist-panel ul li:first-child a{border-top:none;}
+.menulist-panel li a{font-size:10pt;font-weight:bold;display:block;background-position:right;text-decoration:none;border-top:1px solid #c7c2b9;margin:0 20px;position:relative;padding-right:10px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;-webkit-text-overflow:ellipsis;-ms-text-overflow:ellipsis;}
+.menulist-panel ul.menulist-panel-grey{background-image:none;background-color:#575b5e;}
+.menulist-panel ul.menulist-panel-grey a{border-top:solid 1px #7d8182;color:#fff;}
+.menulist-panel ul,ul.help-panel{background-image:-webkit-gradient(linear,left top,left bottom,from(#e2dcd2),to(#d0cac1));background-image:-webkit-linear-gradient(top,#e2dcd2,#d0cac1);background-image:-moz-linear-gradient(top,#e2dcd2,#d0cac1);background-image:-ms-linear-gradient(top,#e2dcd2,#d0cac1);background-image:-o-linear-gradient(top,#e2dcd2,#d0cac1);background-image:linear-gradient(top,#e2dcd2,#d0cac1);}
