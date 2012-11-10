@@ -468,9 +468,9 @@ div.ui-header{border-top:1px solid #5C6368;text-align:center;}
 div.ui-header .heading{color:#FFF;height:45px;}
 div.ui-header .heading h1{padding:.9em 20% .9em 35%;display:block;font-size:16px;min-height:1.1em;overflow:hidden;text-align:center;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;-webkit-text-overflow:ellipsis;}
 div.ui-header .heading h1 b{font-weight:bold;}
-.logo-large,.logo-small{background:transparent url(/furniture/mobile/images/empty.png) repeat 0 0;}
+.logo-large,.logo-small{background:transparent url(../images/empty.png) repeat 0 0;}
 .logo-large{float:left;left:7px;margin-bottom:13px;top:7px;position:relative;width:96px;height:32px;}
-.logo-small{background:transparent url(/furniture/mobile/images/empty.png) repeat 0 0;margin-left:2px;width:32px;height:10px;}
+.logo-small{background:transparent url(../images/empty.png) repeat 0 0;margin-left:2px;width:32px;height:10px;}
 div.ui-header .back-btn{background-position:-192px -40px;color:#FFF;display:inline-block;float:left;font-size:.923em;font-weight:bold;left:0;line-height:27px;margin-left:5px;position:absolute;top:10px;width:96px;height:32px;z-index:1;}
 .breadcrumb{background-color:#bbb1a7;border-bottom:1px solid #999188;border-top:1px solid #282D30;height:37px;padding-left:5px;text-align:left;white-space:nowrap;}
 .breadcrumb span,.breadcrumb a{display:inline-block;position:relative;}
@@ -512,7 +512,7 @@ ul.ui-listview[data-role="listview"][data-inset="true"] li.ui-li:last-child div[
 div.placeholder{overflow:auto;}
 div.placeholder a{text-decoration:underline;}
 div.placeholder ul.default{list-style-image:none;}
-div.placeholder ul{list-style-image:url(/furniture/mobile/images/bullet.png);}
+div.placeholder ul{list-style-image:url(../images/bullet.png);}
 div.placeholder ul li,div.placeholder ol li{font-size:13px;font-size:.8125rem;margin-left:-15px;margin-bottom:5px;}
 div.placeholder ul li a,.ui-checkbox a{text-decoration:underline;}
 div.placeholder h1+ul+h1{margin-top:10px;}
@@ -537,8 +537,8 @@ select.ui-input-text{height:30px;}
 .ui-radio label span.ui-btn-inner{border:none;font-size:13px;font-size:.8125rem;padding:5px 10px;text-align:center;}
 .ui-radio .ui-corner-left{border-top-left-radius:.3em;border-bottom-left-radius:.3em;}
 .ui-radio .ui-corner-right{border-top-right-radius:.3em;border-bottom-right-radius:.3em;}
-.ui-radio .ui-btn-active{background:#989898 url(/furniture/mobile/images/bg_radio.png) repeat-x 0 0;color:#FFF;}
-.ui-btn-up-w,.ui-btn-down-w{background:#323537 url(/furniture/mobile/images/bg_radio_active.png) repeat-x 0 0;color:#fff;outline:medium none;text-decoration:none;}
+.ui-radio .ui-btn-active{background:#989898 url(../images/bg_radio.png) repeat-x 0 0;color:#FFF;}
+.ui-btn-up-w,.ui-btn-down-w{background:#323537 url(../images/bg_radio_active.png) repeat-x 0 0;color:#fff;outline:medium none;text-decoration:none;}
 .ui-btn-active{border:inherit;color:inherit;text-shadow:inherit;}
 .ui-btn-active a.ui-link-inherit{color:inherit;}
 .ui-grid-a,.ui-grid-b,.ui-grid-c,.ui-grid-d{margin:10px 0;}
@@ -548,18 +548,18 @@ select.fancy{border:1px solid #666;display:block;margin:0;width:100%;}
 form div[data-jquery-plugin="smartradios"]{display:none;}
 form div[data-jquery-plugin="smartradios"] .ui-block-a{width:45%;}
 form div[data-jquery-plugin="smartradios"] .ui-block-b{width:55%;white-space:nowrap;}
-.logo-footer{background:transparent url(/furniture/mobile/images/empty.png) repeat 0 0;float:right;margin-top:1px;width:79px;height:15px;}
+.logo-footer{background:transparent url(../images/empty.png) repeat 0 0;float:right;margin-top:1px;width:79px;height:15px;}
 div.ui-footer{margin:5px 15px;width:auto;}
 div.footer{border-top:1px solid #331E1E;color:#5E6163;padding-top:5px;}
 div.footer a.m-footer-help{color:#5E6163;font-weight:bold;text-decoration:none;}
 div.footer .copyright,div.footer .abn{margin-top:3px;}
-.sprite{background-color:transparent;background-image:url(/furniture/mobile/images/sprite.png);background-repeat:no-repeat;}
+.sprite{background-color:transparent;background-image:url(../images/sprite.png);background-repeat:no-repeat;}
 .ui-li-thumb{left:15px;top:2px;width:24px;height:24px;}
-.logo-large.default{background:transparent url(/furniture/mobile/images/sprite.png) no-repeat -32px -41px;}
-.logo-small.default{background:transparent url(/furniture/mobile/images/sprite.png) no-repeat -224px 0;}
-.logo-footer.default{background:transparent url(/furniture/mobile/images/sprite.png) no-repeat -144px 0;}
-.breadcrumb .home{background:transparent url(/furniture/mobile/images/empty.png) no-repeat 0 0;}
-.breadcrumb .home.default{background:transparent url(/furniture/mobile/images/sprite.png) no-repeat -225px -16px;}
+.logo-large.default{background:transparent url(../images/sprite.png) no-repeat -32px -41px;}
+.logo-small.default{background:transparent url(../images/sprite.png) no-repeat -224px 0;}
+.logo-footer.default{background:transparent url(../images/sprite.png) no-repeat -144px 0;}
+.breadcrumb .home{background:transparent url(../images/empty.png) no-repeat 0 0;}
+.breadcrumb .home.default{background:transparent url(../images/sprite.png) no-repeat -225px -16px;}
 .sprite.icon{background-position:0 -16px;}
 .sprite.thumb-calculator{background-position:-100px -16px;}
 .sprite.thumb-contact{background-position:-200px -16px;}
@@ -569,8 +569,8 @@ div.footer .copyright,div.footer .abn{margin-top:3px;}
 .sprite.thumb-help{background-position:-125px -16px;}
 .sprite.thumb-trading{background-position:-50px -16px;}
 .sprite.thumb-www{background-position:-150px -16px;}
-.footer .sprite.help{background:transparent url(/furniture/mobile/images/empty.png) no-repeat 0 0;left:35px;}
-.footer .sprite.help.default{background:transparent url(/furniture/mobile/images/sprite.png) no-repeat -250px -16px;}
+.footer .sprite.help{background:transparent url(../images/empty.png) no-repeat 0 0;left:35px;}
+.footer .sprite.help.default{background:transparent url(../images/sprite.png) no-repeat -250px -16px;}
 .ui-mobile-viewport{-webkit-tap-highlight-color:rgba(0,0,0,0.3);}
 table .right{text-align:right!important;}
 table .left{text-align:left!important;}
