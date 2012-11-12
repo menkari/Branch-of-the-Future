@@ -31,7 +31,7 @@ initCheckin = function() {
             //Check out
             $(this).find("h2.m-heading").text("Branch Checkin");
             $($this).find('[data-role="checkin-status"]').text("Checked Out");
-            $($this).data("status", true);
+            $($this).data("status", false);
         }
 
         //$.ajax({
