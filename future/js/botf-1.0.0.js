@@ -20,17 +20,31 @@ initCheckin = function() {
     $('[data-role="branch-checkin"]').on('click', function (e) {
         e.preventDefault();
 
-        $.ajax({
-            type: 'PUT',
-            url: "http://web.botfapi.local/api/CheckIn/" + customerId,
-            data: { Id: customerId, Name: customerName, CheckedIn: !($(this).data("status")) },
-            beforeSend: function () {
-                $(this).find("h2.m-heading").text("Retrieving Status");
-            },
-            success: function(data) {
-                $(this).data("status", parseJSON(data).CheckedIn);
-            }
-        });
+        var $this = $(this);
+        
+        if($($this).data("status") == false) {
+            // Checkin  
+            $(this).find("h2.m-heading").text("Westpac Razorfish");
+            $($this).find('[data-role="checkin-status"]').text("Checked In");
+            $($this).data("status", true);
+        } else {
+            //Check out
+            $(this).find("h2.m-heading").text("Branch Checkin");
+            $($this).find('[data-role="checkin-status"]').text("Checked Out");
+            $($this).data("status", true);
+        }
+
+        //$.ajax({
+        //    type: 'PUT',
+        //    url: "http://web.botfapi.local/api/CheckIn/" + customerId,
+        //    data: { Id: customerId, Name: customerName, CheckedIn: !($(this).data("status")) },
+        //    beforeSend: function () {
+        //        $(this).find("h2.m-heading").text("Retrieving Status");
+        //    },
+        //    success: function(data) {
+        //        $(this).data("status", parseJSON(data).CheckedIn);
+        //    }
+        //});
         
     });
 
